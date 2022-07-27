@@ -1,21 +1,12 @@
 /* navigation Links */
 
-#enquiries_link {
-    float: right;
-}
-
-#gallery_link {
-    text-align: center;
-    list-style-type: none;
-}
-
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
 }
 
 #menu li {
-    float: right;
+    /*float: right; */
     list-style-type: none;
     margin-right: 30px;
     margin-top: 0px;
@@ -28,7 +19,26 @@
 }
 
 #menu a:hover {
-    border-bottom: solid 1px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    font-weight: bold;
+
+}
+
+#enquiries_link {
+    float: right;
+    margin-right: 30px;
+    padding-right: 250px;
+}
+
+#gallery_link {
+    float: left;
+    margin-right: 30px;
+    padding-left: 250px;
+}
+
+#about_us_link {
+    padding-left: 250px;
 }
 
 .active {
@@ -57,3 +67,124 @@
    font-style: oblique;
 
 }
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+
+
+#hero-image {
+    height: 550px;
+    width: 100%;
+    background: url('../images/Fairway.jpeg') no-repeat center center;
+
+    /* Animates zoom effect on landing page */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#cover-text {
+    font-size: 120%;
+    font-family: candara, sans-serif;
+    letter-spacing: 4px;
+
+    width: 600px;
+    height: 190px;
+
+    padding-top: 5px ;
+    padding-left: 5px;
+    padding-right: 1px;
+
+    background-color: rgba(10, 109, 38, 0.7);
+
+    bottom: 120px;
+    right: 400px;
+
+    position: absolute;
+
+}
+/* Creates the level of zoom for hero image */
+
+@keyframes hero-zoom {
+    from {
+     transform: scale(1);
+ 
+    }
+    
+     to {
+         transform: scale(1.1);
+     }
+ }
+
+ /* Popular destinations */ 
+
+ #destinations {
+    font-family: candara, sans-serif;
+    font-style: oblique;
+ }
+
+ #popular {
+    text-align: center;
+    font-family: candara, sans-serif;
+    color: rgba(10, 109, 38, 0.7);
+ }
+
+ #destinations #portugal {
+
+    background-image: url('../images/Course1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 33%;
+    overflow: hidden;
+    float: left;
+}
+
+#destinations #spain {
+
+    background-image: url('../images/Spain_course.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 34%;
+    overflow: hidden;
+    
+}
+
+#destinations #ireland {
+
+    background-image: url('../images/Course3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 33%;
+    overflow: hidden;
+    float: right;
+    
+}
+
+
+
+#destinations div {
+    color: #fafafa;
+    /* background-color: rgba(0, 0, 0, .6); */
+    width: 50%;
+    height: 250px;
+    float: left;
+    padding: 30px, 30px, 0, 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
