@@ -1,0 +1,26 @@
+/* navigation Links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: solid 1px;
+}
+
+.active {
+    border-bottom: solid 1px;
+}
