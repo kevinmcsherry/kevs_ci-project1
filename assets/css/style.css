@@ -39,6 +39,13 @@
     padding-left: 250px;
 }
 
+#home_link {
+
+    float: left;
+    margin-right: 30px;
+    padding-left: 280px;
+}
+
 #about_us_link {
     padding-left: 250px;
 }
@@ -222,3 +229,14 @@ h3 {
     text-align: center;
     font-family: candara sans-serif;
 }
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+    }
+    
+#photos > img {
+        width: 100%;
+    }
