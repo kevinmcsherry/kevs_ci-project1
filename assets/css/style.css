@@ -112,6 +112,7 @@
     font-size: 120%;
     font-family: candara, sans-serif;
     letter-spacing: 4px;
+    text-align: center;
 
     width: 600px;
     height: 190px;
@@ -242,3 +243,23 @@ h3 {
 #photos > img {
         width: 100%;
     }
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(14, 130, 45);
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    line-height: 2;
+    text-align: left;
+}
+
+.line2 {
+    text-indent: 30px;
+}
+
+.line3 {
+    text-indent: 50px;
+}
+
+
