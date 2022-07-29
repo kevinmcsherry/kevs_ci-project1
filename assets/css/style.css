@@ -239,21 +239,21 @@ img {
 footer {
     width: auto;
     height: 100px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
-.social-networks {
+.social-links {
     
     text-align: center;
 
 }
 
-.social-networks > li {
+.social-links > li {
     display: inline;
 }
 
-.social-networks i {
+.social-links i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -294,7 +294,7 @@ p {
     color: azure;
     font-size: large;
     line-height: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #review div {
@@ -334,6 +334,11 @@ p {
     overflow: hidden;
     float: right;
     background-color:darkseagreen;
+}
+
+footer > ul {
+    margin: 0px;
+    height: 150%
 }
 
 
