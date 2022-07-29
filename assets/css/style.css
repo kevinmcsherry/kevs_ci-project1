@@ -11,8 +11,8 @@
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    margin-top: -30px;
+    margin-bottom: 10px;
 }
 
 #menu a {
@@ -55,6 +55,12 @@
     border-bottom: solid 1px;
 }
 
+h2 {
+    width: auto;
+    margin: 2%;
+    color: white;
+}
+
 /* Logo */
 
 #logo {
@@ -64,6 +70,8 @@
   width: 10%;
   margin-top: -1%;
   border: 0px;
+  height: 60px;
+  padding: 0;
 }
 
 /* Company Name Header */
@@ -75,6 +83,8 @@
    text-align: center;
    font-size: 200%;
    font-style: oblique;
+   height: 30px;
+   margin-top: 0;
 
 }
 
@@ -86,6 +96,17 @@
     position: relative;
     margin-bottom: 0;
     margin-top: -10px;
+}
+
+
+#about_us_main {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(108, 168, 19);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
 }
 
 
@@ -205,8 +226,10 @@
 }
 
 footer {
-
+    width: auto;
     height: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .social-networks {
@@ -248,18 +271,18 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(14, 130, 45);
     position: absolute;
-    top: 50px;
+    top: -10px;
     left: 30px;
     line-height: 2;
     text-align: left;
 }
 
-.line2 {
-    text-indent: 30px;
-}
-
-.line3 {
-    text-indent: 50px;
+p {
+    text-align:center;
+    color: azure;
+    font-size: large;
+    line-height: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
