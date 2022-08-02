@@ -230,7 +230,7 @@ img {
     width: 50%;
     height: 250px;
     float: left;
-    padding: 30px, 30px, 0, 10px;
+    padding: 30px 30px 0 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
@@ -262,7 +262,7 @@ footer {
 }
 
 h3 {
-    padding-bottom: -50px;
+    padding-bottom: 0px;
     text-align: center;
     font-family: candara sans-serif;
 }
@@ -300,7 +300,7 @@ p {
 #review div {
     height: 250px;
     float: left;
-    padding: 30px, 30px, 0, 10px;
+    padding: 30 30 0 10;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
