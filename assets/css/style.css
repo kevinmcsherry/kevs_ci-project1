@@ -28,13 +28,13 @@
 
 }
 
-/*#enquiries_link {
-    float: right;
-    margin-right: 30px;
-    padding-right: 250px;
+#enquiries_link {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    color:white;
 }
 
-#gallery_link {
+/*#gallery_link {
     float: left;
     margin-right: 30px;
     padding-left: 250px;
@@ -300,7 +300,6 @@ p {
 #review div {
     height: 250px;
     float: left;
-    padding: 30 30 0 10;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
