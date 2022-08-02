@@ -89,7 +89,7 @@ img {
 
 #company_name
 {
-   font-family: "candara" "sans-serif";
+   font-family: "candara", "sans-serif";
    color: rgb(14, 130, 45);
    text-align: center;
    font-size: 200%;
@@ -182,7 +182,7 @@ img {
  }
 
  #popular {
-    font-family: "candara" "sans-serif";
+    font-family: "candara", "sans-serif";
     color: rgb(14, 130, 45);
     text-align: center;
     font-size: 200%;
@@ -264,7 +264,7 @@ footer {
 h3 {
     padding-bottom: 0px;
     text-align: center;
-    font-family: "candara" "sans-serif";
+    font-family: "candara", "sans-serif";
 }
 
 #photos {
