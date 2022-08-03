@@ -160,6 +160,13 @@ box-sizing: border-box;
     font-weight: bold;
     color: white;
     text-align: center;
+    width:auto;
+  }
+
+  .form_container p {
+    float: left;
+    margin: 0;
+    padding: 0;
   }
 
 label {
@@ -169,7 +176,7 @@ label {
   }
 
   input[type=text], select, textarea {
-    width: 40%;
+    width: 30%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -177,7 +184,6 @@ label {
     margin-top: 6px;
     margin-bottom: 10px;
     vertical-align: middle;
-    margin-right: 50px;
   }
   
   input[type=submit] {
@@ -187,8 +193,8 @@ label {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 40%;
-    margin-left: 95px;
+    width: 30%;
+    margin-left: 140px;
   }
   
   input[type=submit]:hover {
@@ -196,11 +202,11 @@ label {
   }
   
 
-#cover-text, #cover-text h2 {
+#front-text, #front-text h2 {
     color: #fff;
 }
 
-#cover-text {
+#front-text {
     font-size: 120%;
     font-family: "candara", "sans-serif";
     letter-spacing: 4px;
@@ -342,9 +348,9 @@ h3 {
 h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(14, 130, 45);
-    position: absolute;
-    top: -10px;
-    left: 30px;
+    position: relative;
+    /*top: -10px;
+    left: 30px; */
     line-height: 2;
     text-align: left;
 }
@@ -354,7 +360,7 @@ p {
     color: azure;
     font-size: large;
     line-height: 2rem;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', "Times, serif";
 }
 
 #review div {
@@ -371,8 +377,6 @@ p {
     font-style: oblique;
     color:azure;
 }
-
-
 
 
 #review_left {
@@ -399,5 +403,41 @@ footer > ul {
     margin: 0px;
     height: 150%
 }
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #h4 {
+        position: fixed;
+    }
+
+    #front-text {
+        left: 0;
+    }
+
+
+    #photos {
+        column-count: 3;
+    }
+
+}
+
+/* for small screen sizes - 800px or smaller */
+    @media screen and (max-width: 800px) {
+        #photos {
+            column-count: 2;
+        }
+        #h4 {
+            position: fixed;
+        }
+    }
+
 
 
