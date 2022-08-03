@@ -120,6 +120,10 @@ img {
     text-align:center;
 }
 
+#about_us_main #h2 {
+    margin: 0%;
+}
+
 #enquiries_hero {
     height: 80%;
     width: auto;
@@ -161,13 +165,10 @@ box-sizing: border-box;
     color: white;
     text-align: center;
     width:auto;
+    height: auto;
+    margin-top: 1%;
   }
 
-  .form_container p {
-    float: left;
-    margin: 0;
-    padding: 0;
-  }
 
 label {
     display: inline-block;
@@ -412,6 +413,7 @@ footer > ul {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        font-size: small;
     }
 
     #h4 {
@@ -426,6 +428,45 @@ footer > ul {
     #photos {
         column-count: 3;
     }
+
+    #destinations #portugal {
+        width:100%;
+    }
+
+    #destinations #spain {
+        width:100%;
+    }
+
+    #destinations #ireland {
+        width:100%;
+    }
+
+    #review_left {
+        width:100%;
+        font-size: small;
+    }
+
+    #review_right {
+        width:100%;
+        font-size: small;
+    }
+
+    #review_centre {
+        width:100%;
+        font-size: small;
+    }
+    #about_us_main {
+        font-size: small;
+        height:500px;
+    }
+
+    #about_us_main #h2 {
+        text-align: center;
+        width: auto;
+        margin:0%;
+    }
+
+
 
 }
 
