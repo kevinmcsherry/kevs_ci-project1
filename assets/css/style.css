@@ -1,5 +1,4 @@
 
-
 /* navigation list positioning */
 
 nav {
@@ -8,6 +7,8 @@ nav {
     align-items: center;
     padding: 0;
     margin-bottom: 1%;
+    font-size: 120%;
+    letter-spacing: 4px;
 }
 
 nav li {
@@ -19,10 +20,10 @@ nav li {
 
 /* menu styling */
 
-#menu {
+/*#menu {
     font-size: 120%;
     letter-spacing: 4px;
-}
+}*/
 
 #menu a {
     text-decoration: none;
@@ -34,7 +35,6 @@ nav li {
     text-decoration-line: underline;
     text-decoration-thickness: 3px;
     font-weight: bold;
-
 }
 
 .active {
@@ -97,7 +97,7 @@ img {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: -10px;
+    margin-top: -30px;
 }
 
 #homepage_textblock {
@@ -114,7 +114,20 @@ img {
     bottom: 120px;
     right: 400px;
     position: absolute;
+
+        animation-name: spin;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
 }
+
+/*   Adds a spin animation to the text block in container  */
+
+    @keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+    /*  Styling for header in text block  */
 
 #homepage_textblock h2 {
         width: auto;
@@ -122,18 +135,33 @@ img {
         color: white;
     }
 
+    /*   Key background image on home page  */
+
 #hero-image {
         height: 600px;
         width: 100%;
         background: url('../images/Fairway.jpeg') no-repeat center center;
         margin-bottom: 50%;
     
-        /* Animates zoom effect on landing page */
+        /* Animates zoom effect on main home page image */
     
         animation-name: hero-zoom;
         animation-duration: 5s;
         animation-fill-mode: forwards;
     }
+
+    /* Creates the level of zoom for hero image */
+
+    @keyframes hero-zoom {
+    from {
+     transform: scale(1);
+ 
+    }
+    
+     to {
+         transform: scale(1.4);
+     }
+ }
 
     /*   About us main section and header  */
 
@@ -148,8 +176,9 @@ img {
     text-align:center;
 }
 
-#about_us_main #h2 {
+#about_us_main h2 {
     margin: 0%;
+    color: azure;
 }
 
 /*  Enquiry background Picture  */
@@ -163,36 +192,29 @@ img {
     filter: blur(8px);
 }
 
-
-
-
-.form_style {
-font-family: "Verdana", "sans-serif";
-box-sizing: border-box;
-}
-
 .form_container {
     border-radius: 5px;
     background: url('../images/enquiries_image.jpeg') no-repeat center center;
     padding: 20px;
     font-family: 'Times New Roman', "sans-serif";
     font-weight: bold;
-    color: white;
+    color:ivory;
     text-align: center;
     width:auto;
     height: auto;
-    margin-top: 1%;
+    margin-top: -30px;
+    box-sizing: border-box;
   }
 
 
-label {
+.form_container label {
     display: inline-block;
     width: 140px;
     text-align: right;
   }
 
-  input[type=text], select, textarea {
-    width: 30%;
+.form_container input[type=text], select, textarea {
+    width: 25%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -200,41 +222,28 @@ label {
     margin-top: 6px;
     margin-bottom: 10px;
     vertical-align: middle;
+    text-align: center;
   }
   
-  input[type=submit] {
-    background-color: #04AA6D;
+.form_container input[type=submit] {
+    background-color: #45a049;
     color: white;
     padding: 20px 40px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 30%;
+    width: 25%;
     margin-left: 140px;
   }
   
-  input[type=submit]:hover {
-    background-color: #45a049;
+.form_container input[type=submit]:hover {
+    background-color:lightgreen;
   }
   
 
 #front-text, #front-text h2 {
     color: #fff;
 }
-
-
-/* Creates the level of zoom for hero image */
-
-@keyframes hero-zoom {
-    from {
-     transform: scale(1);
- 
-    }
-    
-     to {
-         transform: scale(1.3);
-     }
- }
 
  /* Popular destinations */ 
 
@@ -465,7 +474,6 @@ footer > ul {
     }
 
 
-
 }
 
 /* for small screen sizes - 800px or smaller */
@@ -478,5 +486,23 @@ footer > ul {
         }
     }
 
+    /* for small screen sizes - 500px or smaller */
+    @media screen and (max-width: 500px) {
 
+        .form_container {
+            float: left;
+        }
+
+        .form_container input[type=text], select, textarea {
+            width:50%;
+            margin-top: 10px;
+        }
+
+        .form_container input[type=submit] {
+            width:50%;
+        }
+
+        
+
+    }
 
