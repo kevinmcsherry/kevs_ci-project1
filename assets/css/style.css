@@ -1,18 +1,27 @@
 
 
-/* navigation Links */
+/* navigation list positioning */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 1%;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: -30px;
+}
+
+/* menu styling */
 
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    margin-top: -30px;
-    margin-bottom: 10px;
 }
 
 #menu a {
@@ -28,38 +37,20 @@
 
 }
 
+.active {
+    border-bottom: solid 1px;
+}
+
+
+/*    Container enquiry link */
+
 #enquiries_link {
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
     color:white;
 }
 
-/*#gallery_link {
-    float: left;
-    margin-right: 30px;
-    padding-left: 250px;
-}
-
-#home_link {
-
-    float: left;
-    margin-right: 30px;
-    padding-left: 300px;
-}
-
-#about_us_link {
-    padding-left: 195px;
-} */
-
-.active {
-    border-bottom: solid 1px;
-}
-
-h2 {
-    width: auto;
-    margin: 2%;
-    color: white;
-}
+/*    Header and Logo positioning   */
 
 header div {
     text-align:center;
@@ -69,7 +60,7 @@ header div {
 /* Logo */
 
 #logo {
-    vertical-align: middle;
+  vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
   width: 10%;
@@ -79,6 +70,8 @@ header div {
   padding: 0;
 }
 
+/*    Image sizing  */
+
 img {
     padding:0px;
     border:0px;
@@ -87,8 +80,7 @@ img {
 
 /* Company Name Header */
 
-#company_name
-{
+#company_name {
    font-family: "candara", "sans-serif";
    color: rgb(14, 130, 45);
    text-align: center;
@@ -96,22 +88,58 @@ img {
    font-style: oblique;
    height: 30px;
    margin-top: 0;
-
 }
 
-#hero-outer {
-    height: 600px;
+/*    Home Page Container and text block   */
+
+#homepage_container {
+    height: 500px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
-
     margin-top: -10px;
 }
 
+#homepage_textblock {
+    font-size: 120%;
+    font-family: "candara", "sans-serif";
+    letter-spacing: 4px;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    padding-top: 5px ;
+    padding-left: 5px;
+    padding-right: 1px;
+    background-color: rgba(10, 109, 38, 0.7);
+    bottom: 120px;
+    right: 400px;
+    position: absolute;
+}
+
+#homepage_textblock h2 {
+        width: auto;
+        margin: 2%;
+        color: white;
+    }
+
+#hero-image {
+        height: 600px;
+        width: 100%;
+        background: url('../images/Fairway.jpeg') no-repeat center center;
+        margin-bottom: 50%;
+    
+        /* Animates zoom effect on landing page */
+    
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+    /*   About us main section and header  */
 
 #about_us_main {
-    height: 300px;
+    display: flex;
+    height: 350px;
     width: 100%;
     background-color: rgb(108, 168, 19);
     display: block;
@@ -124,6 +152,8 @@ img {
     margin: 0%;
 }
 
+/*  Enquiry background Picture  */
+
 #enquiries_hero {
     height: 80%;
     width: auto;
@@ -135,21 +165,6 @@ img {
 
 
 
-
-
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/Fairway.jpeg') no-repeat center center;
-    margin-bottom: 50%;
-
-    /* Animates zoom effect on landing page */
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    
-}
 
 .form_style {
 font-family: "Verdana", "sans-serif";
@@ -207,27 +222,7 @@ label {
     color: #fff;
 }
 
-#front-text {
-    font-size: 120%;
-    font-family: "candara", "sans-serif";
-    letter-spacing: 4px;
-    text-align: center;
 
-    width: 600px;
-    height: 190px;
-
-    padding-top: 5px ;
-    padding-left: 5px;
-    padding-right: 1px;
-
-    background-color: rgba(10, 109, 38, 0.7);
-
-    bottom: 120px;
-    right: 400px;
-
-    position: absolute;
-
-}
 /* Creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
@@ -420,10 +415,6 @@ footer > ul {
         position: fixed;
     }
 
-    #front-text {
-        left: 0;
-    }
-
 
     #photos {
         column-count: 3;
@@ -464,6 +455,13 @@ footer > ul {
         text-align: center;
         width: auto;
         margin:0%;
+    }
+
+    #homepage_textblock {
+        width:50%;
+        height: auto;
+        left: 90px;
+        bottom: 0;
     }
 
 
