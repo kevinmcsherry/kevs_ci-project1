@@ -167,7 +167,7 @@ img {
 
 #about_us_main {
     display: flex;
-    height: 350px;
+    height: 300px;
     width: 100%;
     background-color: rgb(108, 168, 19);
     display: block;
@@ -181,6 +181,8 @@ img {
     color: azure;
 }
 
+
+
 /*  Enquiry background Picture  */
 
 #enquiries_hero {
@@ -193,28 +195,44 @@ img {
 }
 
 .form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
-    background: url('../images/enquiries_image.jpeg') no-repeat center center;
+    background-color: rgb(20, 100, 34);
     padding: 20px;
     font-family: 'Times New Roman', "sans-serif";
     font-weight: bold;
     color:ivory;
     text-align: center;
-    width:auto;
-    height: auto;
+    width:50%;
+    height: 600px;
     margin-top: -30px;
     box-sizing: border-box;
+    margin:auto;
   }
 
 
 .form_container label {
     display: inline-block;
     width: 140px;
-    text-align: right;
+    text-align: center;
   }
 
+.form_container input[type=email]  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
 .form_container input[type=text], select, textarea {
-    width: 25%;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -232,8 +250,8 @@ img {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 25%;
-    margin-left: 140px;
+    width: 40%;
+    margin:auto;
   }
   
 .form_container input[type=submit]:hover {
@@ -371,7 +389,7 @@ p {
 }
 
 #review div {
-    height: 250px;
+    height: 300px;
     float: left;
     text-align: center;
     border: 2px solid white;
@@ -384,7 +402,6 @@ p {
     font-style: oblique;
     color:azure;
 }
-
 
 #review_left {
     width: 33%;
@@ -400,6 +417,7 @@ p {
 }
 
 #review_right {
+    height: 500px;
     width: 33%;
     overflow: hidden;
     float: right;
@@ -445,21 +463,20 @@ footer > ul {
 
     #review_left {
         width:100%;
-        font-size: small;
+        font-size: 60%;
     }
 
     #review_right {
         width:100%;
-        font-size: small;
+        font-size: 60%;
     }
 
     #review_centre {
         width:100%;
-        font-size: small;
+        font-size: 60%;
     }
-    #about_us_main {
-        font-size: small;
-        height:500px;
+    #about_us_main p {
+        font-size: 90%;
     }
 
     #about_us_main #h2 {
