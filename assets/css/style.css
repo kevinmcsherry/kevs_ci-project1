@@ -315,9 +315,7 @@ footer {
 }
 
 .social-links {
-    
     text-align: center;
-
 }
 
 .social-links > li {
@@ -329,8 +327,12 @@ footer {
     margin: 1%;
     padding: 5%;
     color: rgb(14, 130, 45);
-
 }
+
+  i:hover {
+    border-radius: 50%;
+    box-shadow: 0 0 50px #ccc;
+  }
 
 h3 {
     padding-bottom: 0px;
@@ -489,9 +491,7 @@ footer > ul {
     /* for small screen sizes - 500px or smaller */
     @media screen and (max-width: 500px) {
 
-        .form_container {
-            float: left;
-        }
+
 
         .form_container input[type=text], select, textarea {
             width:50%;
