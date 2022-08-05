@@ -20,11 +20,6 @@ nav li {
 
 /* menu styling */
 
-/*#menu {
-    font-size: 120%;
-    letter-spacing: 4px;
-}*/
-
 #menu a {
     text-decoration: none;
     color: green;
@@ -181,18 +176,24 @@ img {
     color: azure;
 }
 
+#about_us_main p {
+    margin-top: 30px;
+}
+
 
 
 /*  Enquiry background Picture  */
 
-#enquiries_hero {
+/*#enquiries_hero {
     height: 80%;
     width: auto;
     background: url('../images/enquiries_image.jpeg') no-repeat center center;
     margin-bottom: 50%;
     object-fit: cover;
     filter: blur(8px);
-}
+} */
+
+/*  Enquiry form container, labels and input section  */
 
 .form_container {
     display: flex;
@@ -259,11 +260,7 @@ img {
   }
   
 
-#front-text, #front-text h2 {
-    color: #fff;
-}
-
- /* Popular destinations */ 
+ /* Popular destinations styling, headings and sections */ 
 
  #destinations {
     font-family: candara, sans-serif;
@@ -312,8 +309,6 @@ img {
     
 }
 
-
-
 #destinations div {
     color: #fafafa;
     width: 50%;
@@ -325,12 +320,16 @@ img {
     box-sizing: border-box;
 }
 
+/* Footer dimensions */
+
 footer {
     width: auto;
     height: 100px;
     margin-top: 0%;
     margin-bottom: 0%;
 }
+
+/* Social media links */
 
 .social-links {
     text-align: center;
@@ -347,6 +346,8 @@ footer {
     color: rgb(14, 130, 45);
 }
 
+/* Circle shadow animation on social links */
+
   i:hover {
     border-radius: 50%;
     box-shadow: 0 0 50px #ccc;
@@ -357,6 +358,8 @@ h3 {
     text-align: center;
     font-family: "candara", "sans-serif";
 }
+
+/* Styling and layout for photos on gallery page */
 
 #photos {
     clear: both;
@@ -380,6 +383,8 @@ h4 {
     text-align: left;
 }
 
+/* Setting paragraph styling for all pages */
+
 p {
     text-align:center;
     color: azure;
@@ -387,6 +392,8 @@ p {
     line-height: 2rem;
     font-family:Georgia, 'Times New Roman', "Times, serif";
 }
+
+/* Styling and positioning the review sections on about us page */
 
 #review div {
     height: 300px;
@@ -428,6 +435,8 @@ footer > ul {
     margin: 0px;
     height: 150%
 }
+
+/*  Settings for elements and sections to be responsive */
 
 @media screen and (max-width: 950px) {
 
@@ -477,6 +486,7 @@ footer > ul {
     }
     #about_us_main p {
         font-size: 90%;
+        margin-top: 0px;
     }
 
     #about_us_main #h2 {
