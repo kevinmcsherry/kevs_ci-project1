@@ -512,6 +512,12 @@ footer > ul {
         bottom: 0;
     }
 
+    .form_container {
+        width:auto;
+        height: auto;
+
+    }
+
 
 }
 
