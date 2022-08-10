@@ -48,20 +48,17 @@ nav li {
 /*    Header and Logo positioning   */
 
 header div {
-    text-align:center;
-    vertical-align:middle;
+    display:flex;
+    justify-content: center;
 }
 
 /* Logo */
 
 #logo {
-  vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
+  width: 100%;
   margin-top: -1%;
   border: 0px;
-  height: 60px;
+  height: 40px;
   padding: 0;
 }
 
@@ -83,6 +80,7 @@ img {
    font-style: oblique;
    height: 30px;
    margin-top: 0;
+   width:auto;
 }
 
 /*    Home Page Container and text block   */
