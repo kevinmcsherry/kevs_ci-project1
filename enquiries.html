@@ -44,30 +44,59 @@
 
     </header>
 
-    <div class="form_container">
-        <form>
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your first name.."><br>
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Email address"><br>
-
-            <label for="destination">Destination</label>
-            <select id="destination" name="destination"><br>
+    <div>
+    <div class="container">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Second Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your second name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">E-Mail</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="email" name="email" placeholder="Email Address">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="destination">Destination</label>
+            </div>
+            <div class="col-75">
+              <select id="destination" name="destination">
                 <option value="" disabled selected>Destination</option>
                 <option value="portugal">Portugal</option>
                 <option value="spain">Spain</option>
                 <option value="ireland">Ireland</option>
-            </select>
-
-          <br>
-      
-          <label for="requirements">Requirements</label>
-          <textarea id="requirements" name="requirements" placeholder= "Tell us what you need! (e.g. 8 people, 2 days, 2 courses, buggies)" style="height:200px"></textarea>
-      <br>
-          <input type="submit" value="Submit">
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Requirements</label>
+            </div>
+            <div class="col-75">
+              <textarea id="requirements" name="requirements" placeholder="Please provide your requirements.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row_centre_button">
+            <input type="submit" value="Submit">
+          </div>
         </form>
+      </div>
       </div>
 
       <footer>
