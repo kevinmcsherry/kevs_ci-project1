@@ -533,6 +533,21 @@ footer > ul {
     @media screen and (max-width: 500px) {
 
 
+        nav {
+
+            display: flex;
+            justify-content:center;
+            margin-right: 30px;
+
+        }
+
+
+        nav li {
+            vertical-align: middle;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+        }
 
         .form_container input[type=text], select, textarea {
             width:50%;
