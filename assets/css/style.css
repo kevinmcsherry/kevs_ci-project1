@@ -191,17 +191,6 @@ img {
 
 
 
-/*  Enquiry background Picture  */
-
-/*#enquiries_hero {
-    height: 80%;
-    width: auto;
-    background: url('../images/enquiries_image.jpeg') no-repeat center center;
-    margin-bottom: 50%;
-    object-fit: cover;
-    filter: blur(8px);
-} */
-
 /*  Enquiry form container, labels and input section  */
 
 /* Style inputs, select elements and textareas */
@@ -224,6 +213,7 @@ input[type=text], select, textarea{
   }
   
   /* Style the label to display next to the inputs */
+
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
@@ -232,6 +222,7 @@ input[type=text], select, textarea{
   }
   
   /* Style the submit button */
+
   input[type=submit] {
     background-color: white;
     color: green;
@@ -247,7 +238,8 @@ input[type=text], select, textarea{
   }
 
   
-  /* Style the container */
+  /* Style the  enquiry form container */
+
   .container {
     width: 75%;
     border-radius: 5px;
@@ -277,6 +269,8 @@ input[type=text], select, textarea{
     display: table;
     clear: both;
   }
+
+  /* Centering the Submit button on enquiry form */
 
   .row_centre_button {
     text-align: center;
@@ -404,8 +398,6 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(14, 130, 45);
     position: relative;
-    /*top: -10px;
-    left: 30px; */
     line-height: 2;
     text-align: left;
 }
@@ -448,33 +440,6 @@ p {
     margin-right: 15px;
 }
 
-/*#review {
-    font-family: candara, sans-serif;
-    font-style: oblique;
-    color:azure;
-}
-
-#review_left {
-    width: 33%;
-    overflow: hidden;
-    float: left;
-    background-color:darkseagreen;
-}
-
-#review_centre {
-    width: 34%;
-    overflow: hidden;
-    background-color:darkseagreen;
-}
-
-#review_right {
-    height: 500px;
-    width: 33%;
-    overflow: hidden;
-    float: right;
-    background-color:darkseagreen;
-}*/
-
 footer > ul {
     margin: 0px;
     height: 150%
@@ -483,6 +448,9 @@ footer > ul {
 /*  Settings for elements and sections to be responsive */
 
 @media screen and (max-width: 950px) {
+
+
+/* Shift menu items to the left on resize*/
 
     #menu {
         clear: left;
@@ -497,6 +465,8 @@ footer > ul {
         position: fixed;
     }
 
+    /* Widening the destination section of smaller screens to allow for stacking */
+
     #destinations #portugal {
         width:100%;
     }
@@ -509,6 +479,8 @@ footer > ul {
         width:100%;
     }
 
+    /* Putting the review sections into a column on smaller resize of screens */ 
+
     .review {
         flex-direction: column;
         height: auto;
@@ -517,6 +489,8 @@ footer > ul {
     .review div {
         height: auto;
     }
+
+    /* Main seciton on about us page to change size to fit content */
 
     #about_us_main {
         height: auto;
@@ -533,6 +507,8 @@ footer > ul {
         margin:0%;
     }
 
+    /* Text block on home page to resize on smaller screen */
+
     #homepage_textblock {
         width:50%;
         height: auto;
@@ -545,6 +521,8 @@ footer > ul {
         height: auto;
 
     }
+
+    /* Change the photo layout to 2 columns of smaller screen */
 
     #photos {
         column-count: 2;
@@ -565,6 +543,7 @@ footer > ul {
     /* for small screen sizes - 500px or smaller */
     @media screen and (max-width: 500px) {
 
+    /*  On smaller screens, have the menu options stack */
 
         nav {
 
@@ -574,7 +553,6 @@ footer > ul {
 
         }
 
-
         nav li {
             vertical-align: middle;
             display: flex;
@@ -582,18 +560,13 @@ footer > ul {
             justify-content: center;
         }
 
-        .form_container input[type=text], select, textarea {
-            width:50%;
-            margin-top: 10px;
-        }
-
-        .form_container input[type=submit] {
-            width:50%;
-        }
+        /* Change the photo layout to 1 column on smaller screen size */
 
         #photos {
             column-count: 1;
         }
+
+        /* On smaller screens style the homepage and inner textblock to be visually acceptable */
 
         #homepage_container {
             width: 100%;
@@ -608,6 +581,8 @@ footer > ul {
             left: 90px;
             margin-top: 20px;
         }
+
+        /* Enquiry form labels and input fields styling and sizing on smaller screens */
 
         .col-25, .col-75 {
             width: 100%;
