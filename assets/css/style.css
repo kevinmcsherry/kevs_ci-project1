@@ -301,6 +301,7 @@ input[type=text], select, textarea{
     width: 33%;
     overflow: hidden;
     float: left;
+    color: red;
 }
 
 #destinations #spain {
@@ -311,6 +312,7 @@ input[type=text], select, textarea{
     background-position: center;
     width: 34%;
     overflow: hidden;
+    color: yellow;
     
 }
 
@@ -323,6 +325,7 @@ input[type=text], select, textarea{
     width: 33%;
     overflow: hidden;
     float: right;
+    color: green;
     
 }
 
