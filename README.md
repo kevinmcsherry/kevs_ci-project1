@@ -36,7 +36,7 @@ This website has many cool features, including seemless navigation, eye catching
 
   - The footer section includes links to the relevant social media sites for Tee Time Tours. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
-  - Each Page on the Website will have the exact footer layout and options to keep familiarity and enhance accessibility.
+  - Each Page on the Website will have the exact footer layout and options to keep familiarity and enhance accessibility.  Each logo has a shadowing effect to add a bit of pizazz.
 
 ![Footer](assets/images/Readme_Footer.png)
 
