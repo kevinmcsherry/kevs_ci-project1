@@ -2,7 +2,7 @@
 
 Tee Time Tours is a site that offers the assistance in hassle free booking of golfing trips and tours.  Visitors to the web site can view some popular golfing destinations via our gallery page.  They can suggest a location and all other requirements via our enquiry page.  Our team will take this information and come back with some suggestions and options based on wants and needs.  When the customer decides on what they would like, the representitive will then organise and book the trip and send back all details.
 
-![Front Page view](https://github.com/kevinmcsherry/kevs_ci_project1/tree/main/assets/images/Readme_frontpage.png)
+![Front Page view](assets/images/Readme_frontpage.png)
 
 ## Features 
 
@@ -14,14 +14,15 @@ This website has many cool features, including seemless navigation, eye catching
 
   - Featured on all three pages, the full responsive navigation bar includes seperate links to Home page, Gallery, Enquiries and About us Pages.  The user can also navigate to the home page from anywhere on the site by clicking on the main logo and company name.  The menu will indicate what page the user is currently residing by underlining the menu option.  Each page will have the exact menu layout for familiarity. 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Each menu item will highlight by enlarging slightly by becoming underlined and bold when scrolled over.
 
-![Nav Bar](https://github.com/kevinmcsherry/kevs_ci_project1/tree/main/assets/images/Readme_frontpage.png)
+![Nav Bar](assets/images/Readme_NavBar.png)
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay which immediately grabs the users attention and gives a short clear message to aid the user in knowing exactly where they are and where they can go to next!
 
-![Front Page view 1](https://github.com/kevinmcsherry/kevs_ci_project1/tree/main/assets/images/Readme_Landingpage.png)
+![Front Page view 1](assets/images/Readme_Landingpage.png)
 
 
 - __Popular Destinations Section__
@@ -29,7 +30,7 @@ This website has many cool features, including seemless navigation, eye catching
   - The Popular Destinations section will allow the user to see some beautiful images of locations that they can book with us to get the mouth watering!
   - This user will quickly see and understand the different locations that are available that they may not have orginally been thinking of.
 
-![Destinations](https://github.com/kevinmcsherry/kevs_ci_project1/tree/main/assets/images/Readme_Destinations.png)
+![Destinations](assets/images/Readme_Destinations.png)
 
 - __The Footer__ 
 
@@ -37,28 +38,28 @@ This website has many cool features, including seemless navigation, eye catching
   - The footer is valuable to the user as it encourages them to keep connected via social media.
   - Each Page on the Website will have the exact footer layout and options to keep familiarity and enhance accessibility.
 
-![Footer](https://github.com/kevinmcsherry/kevs_ci_project1/tree/main/assets/images/Readme_Footer.png)
+![Footer](assets/images/Readme_Footer.png)
 
 - __Gallery__
 
   - The Gallery is another area on the Website that will get the juices running!  It shows off some of the stunning locations from our popular detinations and also shows some golfers that have used our site enjoying their time!
   - If the visitor was in any doubt about travelling to locations that they may not be familiar with for a typical golf trip, this will help them become adventurous!
 
-![Gallery](https://github.com/kevinmcsherry/kevs_ci_project1/tree/main/assets/images/Readme_Gallery.png)
+![Gallery](assets/images/Readme_Gallery.png)
 
 - __The Enquiries Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page allows the user to enter thier details, identify a desired location and then add any specific requirements they have (number of people, Golf clubs, buggys etc.)
+  - Its a very straight forward no fuss page that is clear and easy to use for the user.
+  - The submit button will change colour when scrolled over
+  - When 'Submit' is clicked, if all required information is entered, this will take the user to a 'Thank you' page, detailing out next steps.  If all required information is not entered the page will remain with a message.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Enquiries](assets/images/Readme_Enquiries.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- If time allowed and I was to enhance this Website, I would like to make the destinations section on the home page more interactive.  Currently they are dead images of locations..ideally, I would like the user to be able to click on a destination and then be brought to a page with different golf courses available in that location, and perhaps seperate gallery for each course.
+- Another addition would be the review section on About us page.  Currently they are snippets of quaotes made by happy customers.  It would be great to make these short videos of actual people telling their story about the experience that they had.
 
 ## Testing 
 
