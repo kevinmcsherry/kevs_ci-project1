@@ -1,19 +1,19 @@
 # Tee Time Tours
 
-Tee Time Tours is a site that offers the assistance in hassle free booking of golfing trips and tours.  Visitors to the web site can view some popular golfing destinations via our gallery page.  They can suggest a location and all other requirements via our enquiry page.  Our team will take this information and come back with some suggestions and options based on wants and needs.  When the customer decides on what they would like, the representitive will then organise and book the trip and send back all details.
+Tee Time Tours is a site that offers the assistance in hassle free booking of golfing trips and tours. Visitors to the web site can view some popular golfing destinations via our gallery page. They can suggest a location and all other requirements via our enquiry page. Our team will take this information and come back with some suggestions and options based on wants and needs. When the customer decides on what they would like, the representative will then organise and book the trip and send back all details.
 
 ![Front Page view](assets/images/Readme_frontpage.png)
 
 ## Features 
 
-This website has many cool features, including seemless navigation, eye catching photo gallery, clear descriptions of what is on offer and an overall fun effortless experience.
+This website has many cool features, including seamless navigation, eye catching photo gallery, clear descriptions of what is on offer and an overall fun effortless experience.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes seperate links to Home page, Gallery, Enquiries and About us Pages.  The user can also navigate to the home page from anywhere on the site by clicking on the main logo and company name.  The menu will indicate what page the user is currently residing by underlining the menu option.  Each page will have the exact menu layout for familiarity. 
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all three pages, the full responsive navigation bar includes separate links to Home page, Gallery,  Enquiries and About us Pages. The user can also navigate to the home page from anywhere on the site by clicking on the main logo and company name. The menu will indicate what page the user is currently residing by underlining the menu option. Each page will have the exact menu layout for familiarity.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   - Each menu item will highlight by enlarging slightly by becoming underlined and bold when scrolled over.
 
 ![Nav Bar](assets/images/Readme_NavBar.png)
@@ -42,7 +42,7 @@ This website has many cool features, including seemless navigation, eye catching
 
 - __Gallery__
 
-  - The Gallery is another area on the Website that will get the juices running!  It shows off some of the stunning locations from our popular detinations and also shows some golfers that have used our site enjoying their time!
+  - The Gallery is another area on the Website that will get the juices running!  It shows off some of the stunning locations from our popular destinations and also shows some golfers that have used our site enjoying their time!
   - If the visitor was in any doubt about travelling to locations that they may not be familiar with for a typical golf trip, this will help them become adventurous!
 
 ![Gallery](assets/images/Readme_Gallery.png)
