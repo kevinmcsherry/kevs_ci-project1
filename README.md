@@ -56,6 +56,13 @@ This website has many cool features, including seemless navigation, eye catching
 
 ![Enquiries](assets/images/Readme_Enquiries.png)
 
+- __The Enquiry confirmation page__
+
+- This page confirms to the user that their enquiry has been recieved and that someone will be back to them as soon as possible
+- This page contains the standard comapny logo, navigations and footer social links as the other pages to allow for consistency and to allow user to navigate back to the site seemlessly.
+
+![Enquiry_confirmation](assets/images/Readme%20Enquiry%20confirmation%20page.png)
+
 ### Features Left to Implement
 
 - If time allowed and I was to enhance this Website, I would like to make the destinations section on the home page more interactive.  Currently they are dead images of locations..ideally, I would like the user to be able to click on a destination and then be brought to a page with different golf courses available in that location, and perhaps seperate gallery for each course.
