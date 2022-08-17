@@ -247,6 +247,20 @@ input[type=text], select, textarea{
     padding: 20px;
     margin: auto;
   }
+
+  .container h2 {
+    text-align: center;
+    color: azure;
+    margin-top: 10px;
+  }
+
+  .container img {
+    display: block;
+    height: 150px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   /* Floating column for labels: 25% width */
   .col-25 {
@@ -608,6 +622,14 @@ footer > ul {
         .col-25, .col-75 {
             width: 100%;
             margin-top: 0;
+          }
+
+          .container img {
+            display: block;
+            height: 100px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
           }
     
 
