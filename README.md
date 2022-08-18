@@ -72,6 +72,10 @@ This website has many cool features, including seamless navigation, eye catching
 
 Testing my website was a natural part of the development work on a day to day basis.  Each little change was then tried and tested.  So hundreds of tests were carried out as a natural progression.  These are not all documented.  However, when my site was at a point where its was fully functional and a place where I believed was consumable, I conducted further documented, comprehensive testing. I used an overall User Story for the Web Site and individual use cases to drive these tests. Please see [User Story and Functional Testing](https://docs.google.com/spreadsheets/d/1htQBVcgTHaQGAu9rQoSIUzo6yJ912onbbliXnAJKo1Q/edit#gid=0) 
 
+## Original Wireframe
+
+Before jumping into coding, I wanted to first put some thought into the idea and design of my Website.  The original design did not change too much, but as I got into the project, I decided on changing a few UX items and layouts.  Please see [Original Wireframes](https://docs.google.com/document/d/1jW4MrTrLhwpKfaKYJjZmGAH6zFFszIeQgD7nzF6flhc/edit?usp=sharing)
+
 
 ### Validator Testing 
 
