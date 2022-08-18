@@ -112,7 +112,7 @@ I used image and photo website referenced below and well known coding sites like
 
 ### Content 
 
-- Rightly or wrongly, I really tried to use what I had learned through the course and general web searches on how to structure my site.  I did many searches and I was using [Stackoverflow] (https://stackoverflow.com/) and [W3 Schools](https://www.w3schools.com/) quite a lot.  There are lots of great snippets of ideas here that helped me a lot.
+- Rightly or wrongly, I really tried to use what I had learned through the course and general web searches on how to structure my site.  I did many searches and I was using [Stackoverflow](https://stackoverflow.com/) and [W3 Schools](https://www.w3schools.com/) quite a lot.  There are lots of great snippets of ideas here that helped me a lot.
 
 - I used the Love Running project to help inspire me to overall site navigation and used the code here to help with with menu items and the responsiveness of these.
 
