@@ -61,7 +61,7 @@ This website has many cool features, including seamless navigation, eye catching
 - This page confirms to the user that their enquiry has been recieved and that someone will be back to them as soon as possible
 - This page contains the standard comapny logo, navigations and footer social links as the other pages to allow for consistency and to allow user to navigate back to the site seemlessly.
 
-![Enquiry_confirmation](assets/images/Readme%20Enquiry%20confirmation%20page.png)
+![Enquiry_confirmation](assets/images/Readme_Enquiry_confirmation.png)
 
 ### Features Left to Implement
 
