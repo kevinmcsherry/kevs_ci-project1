@@ -665,10 +665,11 @@ footer>ul {
     }
 
     #aboutus_textblock {
-        width: 50%;
+        width: 60%;
         height: auto;
         left: 90px;
-        bottom: 80px;
+        bottom: 50px;
+        top: 20px;
     }
 
     /* Enquiry form labels and input fields styling and sizing on smaller screens */
