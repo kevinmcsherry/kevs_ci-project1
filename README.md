@@ -87,7 +87,7 @@ Before jumping into coding, I wanted to first put some thought into the idea and
 
 
 - Lighthouse
-  - I conducted lighthouse tests throughout the devlopment of my site.  On completion the results for both Mobile and Desktop are [Here](https://docs.google.com/document/d/15UYoawhhZp_XdYgbmVTz4k2W3-OfaGqSUQCvfBSOEcI/edit).  All scores above 90 and some at 100.
+  - I conducted lighthouse tests throughout the devlopment of my site.  On completion the results for both Mobile and Desktop are [Lighthouse](https://docs.google.com/document/d/15UYoawhhZp_XdYgbmVTz4k2W3-OfaGqSUQCvfBSOEcI/edit).  All scores above 90 and some at 100.
 
 ### Unfixed Bugs
 
