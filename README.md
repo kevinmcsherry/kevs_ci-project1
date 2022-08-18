@@ -70,7 +70,7 @@ This website has many cool features, including seamless navigation, eye catching
 
 ## Testing 
 
-Testing my website was a natural part of the development work on a day to day basis.  Each little change was then tried and tested.  So hundreds of tests were carried out as a natural progression.  These are not all documented.  However, when my site was at a point where its was fully functional and a place where I believed was consumable, I conducted further documented, comprehensive testing. Please see [Here](https://docs.google.com/spreadsheets/d/1htQBVcgTHaQGAu9rQoSIUzo6yJ912onbbliXnAJKo1Q/edit#gid=0) 
+Testing my website was a natural part of the development work on a day to day basis.  Each little change was then tried and tested.  So hundreds of tests were carried out as a natural progression.  These are not all documented.  However, when my site was at a point where its was fully functional and a place where I believed was consumable, I conducted further documented, comprehensive testing. I used an overall User Story for the Web Site and individual use cases to drive these tests. Please see [User Story and Functional Testing](https://docs.google.com/spreadsheets/d/1htQBVcgTHaQGAu9rQoSIUzo6yJ912onbbliXnAJKo1Q/edit#gid=0) 
 
 
 ### Validator Testing 
