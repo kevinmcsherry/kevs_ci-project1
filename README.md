@@ -118,6 +118,8 @@ I used image and photo website referenced below and well known coding sites like
 
 - I struggled a bit on my form, so I then turned to external help so the structure, layout and responsiveness of my enquiry form was quite heavily dervied via [W3 Schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)
 
+- I added some animation to text for the review section of the About us page, it took ideas and snippet of code from a source called [Alvarotrigo](https://alvarotrigo.com/blog/css-text-animations/)
+
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 - The submit button on my enquiry form needed to redirect to a page.  I used the form learning section in the Code Institute to add the redirection to form dump page.
