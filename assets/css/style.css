@@ -1,4 +1,3 @@
-
 /* navigation list positioning */
 
 nav {
@@ -42,45 +41,45 @@ nav li {
 #enquiries_link {
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
-    color:white;
+    color: white;
 }
 
 /*    Header and Logo positioning   */
 
 header div {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
 /* Logo */
 
 #logo {
-  width: 90%;
-  margin-top: -1%;
-  border: 0px;
-  height: 40px;
-  padding: 0;
+    width: 90%;
+    margin-top: -1%;
+    border: 0px;
+    height: 40px;
+    padding: 0;
 }
 
 /*    Image sizing  */
 
 img {
-    padding:0px;
-    border:0px;
-    margin:0px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
 }
 
 /* Company Name Header */
 
 #company_name {
-   font-family: "candara", "sans-serif";
-   color: rgb(14, 130, 45);
-   text-align: center;
-   font-size: 200%;
-   font-style: oblique;
-   height: 30px;
-   margin-top: 0;
-   width:auto;
+    font-family: "candara", "sans-serif";
+    color: rgb(14, 130, 45);
+    text-align: center;
+    font-size: 200%;
+    font-style: oblique;
+    height: 30px;
+    margin-top: 0;
+    width: auto;
 }
 
 #company_name a:link {
@@ -111,7 +110,7 @@ img {
     text-align: center;
     width: 600px;
     height: 200px;
-    padding-top: 5px ;
+    padding-top: 5px;
     padding-left: 5px;
     padding-right: 1px;
     background-color: rgba(10, 109, 38, 0.7);
@@ -119,76 +118,58 @@ img {
     right: 400px;
     position: absolute;
 
-        animation-name: spin;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 /*   Adds a spin animation to the text block in container  */
 
-    @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-    /*  Styling for header in text block  */
+/*  Styling for header in text block  */
 
 #homepage_textblock h2 {
-        width: auto;
-        margin: 2%;
-        color: white;
-    }
+    width: auto;
+    margin: 2%;
+    color: white;
+}
 
-    /*   Key background image on home page  */
+/*   Key background image on home page  */
 
 #hero-image {
-        height: 600px;
-        width: 100%;
-        background: url('../images/Fairway.jpeg') no-repeat center center;
-        margin-bottom: 50%;
-    
-        /* Animates zoom effect on main home page image */
-    
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
-
-    /* Creates the level of zoom for hero image */
-
-    @keyframes hero-zoom {
-    from {
-     transform: scale(1);
- 
-    }
-    
-     to {
-         transform: scale(1.4);
-     }
- }
-
-    /*   About us main section and header  */
-
-#about_us_main {
-    height: 300px;
+    height: 600px;
     width: 100%;
-    background-color: rgb(108, 168, 19);
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align:center;
-    margin-top: -25px;
+    background: url('../images/Fairway.jpeg') no-repeat center center;
+    margin-bottom: 50%;
+
+    /* Animates zoom effect on main home page image */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
-#about_us_main h2 {
-    margin: 0%;
-    color: azure;
-}
+/* Creates the level of zoom for hero image */
 
-#about_us_main p {
-    margin-top: 30px;
-}
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
 
+    }
+
+    to {
+        transform: scale(1.4);
+    }
+}
 
 
 /*  Enquiry form container, labels and input section  */
@@ -201,113 +182,115 @@ input[type=email] {
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
+}
 
-input[type=text], select, textarea{
+input[type=text],
+select,
+textarea {
     width: 75%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
-  
-  /* Style the label to display next to the inputs */
+}
 
-  label {
+/* Style the label to display next to the inputs */
+
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     color: azure;
     font-weight: bold;
-  }
-  
-  /* Style the submit button */
+}
 
-  input[type=submit] {
-    background-color: white;
-    color: green;
+/* Style the submit button */
+
+input[type=submit] {
+    background-color: rgb(11, 93, 38);
+    color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-  }
+}
 
-  input[type=submit]:hover {
-    background-color:lightgreen;
-  }
+input[type=submit]:hover {
+    background-color: rgb(13, 176, 13);
+}
 
-  
-  /* Style the  enquiry form container */
 
-  .container {
+/* Style the  enquiry form container */
+
+.container {
     width: 75%;
     border-radius: 5px;
-    background-color: green;
+    background-color: rgba(10, 109, 38, 0.7);
     padding: 20px;
     margin: auto;
     margin-top: -20px;
-  }
+}
 
-  .container h2 {
+.container h2 {
     text-align: center;
     color: azure;
     margin-top: 10px;
-  }
+}
 
-  .container img {
+.container img {
     display: block;
     height: 150px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  /* Floating column for labels: 25% width */
-  .col-25 {
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
-  }
-  
-  /* Floating column for inputs: 75% width */
-  .col-75 {
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
+}
 
 
-  /* Clear floats after the columns */
-  .row:after {
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  /* Centering the Submit button on enquiry form */
+/* Centering the Submit button on enquiry form */
 
-  .row_centre_button {
+.row_centre_button {
     text-align: center;
-  }
-  
+}
 
- /* Popular destinations styling, headings and sections */ 
 
- #destinations {
+/* Popular destinations styling, headings and sections */
+
+#destinations {
     font-family: candara, sans-serif;
     font-style: oblique;
- }
+}
 
- #popular {
+#popular {
     font-family: "candara", "sans-serif";
     color: rgb(14, 130, 45);
     text-align: center;
     font-size: 200%;
     font-style: oblique;
- }
+}
 
- #destinations #portugal {
+#destinations #portugal {
 
     background-image: url('../images/Course1.jpeg');
     background-repeat: no-repeat;
@@ -328,7 +311,7 @@ input[type=text], select, textarea{
     width: 34%;
     overflow: hidden;
     color: yellow;
-    
+
 }
 
 #destinations #ireland {
@@ -341,7 +324,7 @@ input[type=text], select, textarea{
     overflow: hidden;
     float: right;
     color: green;
-    
+
 }
 
 #destinations div {
@@ -370,7 +353,7 @@ footer {
     text-align: center;
 }
 
-.social-links > li {
+.social-links>li {
     display: inline;
 }
 
@@ -383,10 +366,10 @@ footer {
 
 /* Circle shadow animation on social links */
 
-  i:hover {
+i:hover {
     border-radius: 50%;
     box-shadow: 0 0 50px #ccc;
-  }
+}
 
 h3 {
     padding-bottom: 0px;
@@ -403,14 +386,14 @@ h3 {
     column-gap: 0;
     overflow: hidden;
     margin-top: -25px;
-    }
-    
-#photos > img {
-        width: 100%;
-        height: 400px;
-        width: 500px;
-        border: 6px solid white;
-    }
+}
+
+#photos>img {
+    width: 100%;
+    height: 400px;
+    width: 500px;
+    border: 6px solid white;
+}
 
 h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -423,26 +406,79 @@ h4 {
 /* Setting paragraph styling for all pages */
 
 p {
-    text-align:center;
+    text-align: center;
     color: azure;
     font-size: large;
     line-height: 2rem;
-    font-family:Georgia, 'Times New Roman', "Times, serif";
+    font-family: Georgia, 'Times New Roman', "Times, serif";
+}
+
+/*   About us main container, textblock and header  */
+
+#aboutus_container {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -30px;
+}
+
+
+#aboutus_textblock {
+    font-size: 120%;
+    font-family: "candara", "sans-serif";
+    letter-spacing: 4px;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 1px;
+    background-color: rgba(10, 109, 38, 0.7);
+    bottom: 120px;
+    right: 300px;
+    position: absolute;
+
+}
+
+
+#aboutus_textblock h2 {
+    width: auto;
+    margin: 2%;
+    color: white;
+    animation: flip 3s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}
+
+#aboutus-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/About_us_image.jpeg') no-repeat center center;
+    margin-bottom: 50%;
 }
 
 /* Styling and positioning the review sections on about us page */
 
 
 .review {
-    display:flex;
+    display: flex;
     justify-content: center;
     font-family: candara, sans-serif;
     font-style: oblique;
-    color:azure;
-    background-color:darkseagreen;
+    color: azure;
+    background-color: rgba(10, 109, 38, 0.7);
     margin: 2px;
     border: 6px solid white;
     margin: auto;
+    font-weight: bold;
 }
 
 .review div {
@@ -458,7 +494,9 @@ p {
     margin-right: 15px;
 }
 
-footer > ul {
+
+
+footer>ul {
     margin: 0px;
     height: 150%
 }
@@ -468,7 +506,7 @@ footer > ul {
 .container_enquiry {
     width: 50%;
     border-radius: 5px;
-    background-color: green;
+    background-color: rgba(10, 109, 38, 0.7);
     padding: 20px;
     margin: auto;
     margin-bottom: 150px;
@@ -486,7 +524,7 @@ footer > ul {
 @media screen and (max-width: 950px) {
 
 
-/* Shift menu items to the left on resize*/
+    /* Shift menu items to the left on resize*/
 
     #menu {
         clear: left;
@@ -504,18 +542,18 @@ footer > ul {
     /* Widening the destination section of smaller screens to allow for stacking */
 
     #destinations #portugal {
-        width:100%;
+        width: 100%;
     }
 
     #destinations #spain {
-        width:100%;
+        width: 100%;
     }
 
     #destinations #ireland {
-        width:100%;
+        width: 100%;
     }
 
-    /* Putting the review sections into a column on smaller resize of screens */ 
+    /* Putting the review sections into a column on smaller resize of screens */
 
     .review {
         flex-direction: column;
@@ -540,20 +578,27 @@ footer > ul {
     #about_us_main #h2 {
         text-align: center;
         width: auto;
-        margin:0%;
+        margin: 0%;
     }
 
-    /* Text block on home page to resize on smaller screen */
+    /* On smaller screens style the about us and homepage and inner textblock to be visually acceptable */
 
     #homepage_textblock {
-        width:50%;
+        width: 50%;
         height: auto;
         left: 90px;
         margin-bottom: 10px;
     }
 
+    #aboutus_textblock {
+        width: 50%;
+        height: auto;
+        left: 90px;
+    }
+
+
     .form_container {
-        width:auto;
+        width: auto;
         height: auto;
 
     }
@@ -567,72 +612,80 @@ footer > ul {
 }
 
 /* for small screen sizes - 800px or smaller */
-    @media screen and (max-width: 800px) {
-        #photos {
-            column-count: 1;
-        }
-        #h4 {
-            position: fixed;
-        }
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 1;
     }
 
-    /* for small screen sizes - 500px or smaller */
-    @media screen and (max-width: 500px) {
+    #h4 {
+        position: fixed;
+    }
+}
+
+/* for small screen sizes - 500px or smaller */
+@media screen and (max-width: 500px) {
 
     /*  On smaller screens, have the menu options stack */
 
-        nav {
+    nav {
 
-            display: flex;
-            justify-content:center;
-            margin-right: 40px;
-
-        }
-
-        nav li {
-            vertical-align: middle;
-            display: flex;
-            margin: auto;
-            justify-content: center;
-        }
-
-        /* Change the photo layout to 1 column on smaller screen size */
-
-        #photos {
-            column-count: 1;
-        }
-
-        /* On smaller screens style the homepage and inner textblock to be visually acceptable */
-
-        #homepage_container {
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-            margin-top: 10px;
-        }
-
-        #homepage_textblock {
-            width: 50%;
-            height: auto;
-            left: 90px;
-            margin-top: 20px;
-        }
-
-        /* Enquiry form labels and input fields styling and sizing on smaller screens */
-
-        .col-25, .col-75 {
-            width: 100%;
-            margin-top: 0;
-          }
-
-          .container img {
-            display: block;
-            height: 100px;
-            width: 200px;
-            margin-left: auto;
-            margin-right: auto;
-          }
-    
+        display: flex;
+        justify-content: center;
+        margin-right: 40px;
 
     }
 
+    nav li {
+        vertical-align: middle;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    /* Change the photo layout to 1 column on smaller screen size */
+
+    #photos {
+        column-count: 1;
+    }
+
+    /* On smaller screens style the about us and homepage and inner textblock to be visually acceptable */
+
+    #homepage_container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    #homepage_textblock {
+        width: 50%;
+        height: auto;
+        left: 90px;
+        margin-top: 20px;
+    }
+
+    #aboutus_textblock {
+        width: 50%;
+        height: auto;
+        left: 90px;
+        bottom: 80px;
+    }
+
+    /* Enquiry form labels and input fields styling and sizing on smaller screens */
+
+    .col-25,
+    .col-75 {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .container img {
+        display: block;
+        height: 100px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
